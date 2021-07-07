@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var date1 = new Date()
+    date1.setSeconds(0)
+    date1.setMinutes(0)
+    date1.setHours(0)
+    date1.setMilliseconds(0)
+    var date2 = new Date('2019/6/11')
+    var timeDif = date1.getTime() - date2.getTime()
+    var formatedDif = timeDif / (1000 * 3600 * 24)
+    var years = Math.floor(formatedDif / 365)
+    var remainingDays = formatedDif % 365
+    document.write(`Hypixel SkyBlock is ${formatedDif} days or ${years} years and ${remainingDays} days old today`)
+
+    </script>
+</body>
+</html>
