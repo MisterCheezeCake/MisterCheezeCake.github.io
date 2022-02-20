@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(43, 41, 41);
+}
+.center-text {
+    text-align: center;
+}
+.white {
+    color: rgb(255, 255, 255);
+}
+.txt {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#text {
+    width: 50%;
+}
+#bx {
+    width: 50px;
+    height: 50px;
+}
+#bx:hover {
+    background-color: rgb(0, 100, 200);
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 100, 200);
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(0, 80, 160);
+}
+
+.discord-button {
+    background-color: #7289DA;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+}
+.discord {
+    text-decoration: none;
+    color: white;
+}
+.discord:hover {
+    text-decoration: underline;
+}
+.discord:visited {
+    color: white;
+}
