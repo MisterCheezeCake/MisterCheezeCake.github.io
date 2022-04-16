@@ -24,7 +24,7 @@ function submit() {
         alert("You must provide a request")
         return;
     }
-    fetch("http://backend.mistercheezecake.xyz", {
+    fetch("https://ascendant-volt-322601.uc.r.appspot.com/", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
