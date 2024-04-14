@@ -20,7 +20,7 @@ body {
     height: 50px;
     accent-color: #07620a;
 }
-bx:hover {
+#bx:hover {
     accent-color: #034c05;
 }
 .btn {
